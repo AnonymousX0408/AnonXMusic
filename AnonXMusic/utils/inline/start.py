@@ -26,11 +26,11 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text="❀⋟ ʜᴇʟᴘ ⋞❀", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="✮ ᴏᴡɴᴇʀ ✮", user_id=config.OWNER_ID),
-        ],
-        [
             InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇs ✭", url="https://t.me/ProCoderZBots"),
             InlineKeyboardButton(text="✭ ᴄʜᴀɴɴᴇʟ ✭", url="https://t.me/Pro_CoderZ"),
+        ],
+        [
+            InlineKeyboardButton(text="✮ ᴏᴡɴᴇʀ ✮", user_id=config.OWNER_ID),
         ],
     ]
     return buttons
